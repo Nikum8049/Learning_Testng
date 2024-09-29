@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-18T11:13:19 IST" name="All Test Suite" finished-at="2024-09-18T11:13:19 IST" duration-ms="68">
+    <groups>
+      <group name="smoke">
+        <method signature="Account.currentAccount()[pri:0, instance:groups.Account@d4342c2]" name="currentAccount" class="groups.Account"/>
+        <method signature="Account.loanAccount()[pri:0, instance:groups.Account@d4342c2]" name="loanAccount" class="groups.Account"/>
+        <method signature="Payment.cod()[pri:0, instance:groups.Payment@769e7ee8]" name="cod" class="groups.Payment"/>
+        <method signature="Payment.debitCard()[pri:0, instance:groups.Payment@769e7ee8]" name="debitCard" class="groups.Payment"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Account.loanAccount()[pri:0, instance:groups.Account@d4342c2]" name="loanAccount" class="groups.Account"/>
+        <method signature="Account.savingAccount()[pri:0, instance:groups.Account@d4342c2]" name="savingAccount" class="groups.Account"/>
+        <method signature="Payment.cod()[pri:0, instance:groups.Payment@769e7ee8]" name="cod" class="groups.Payment"/>
+        <method signature="Payment.creditCard()[pri:0, instance:groups.Payment@769e7ee8]" name="creditCard" class="groups.Payment"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-09-18T11:13:19 IST" name="E:/Learning_Testng/src/test/java/groups" finished-at="2024-09-18T11:13:19 IST" duration-ms="68">
+      <class name="groups.Payment">
+        <test-method signature="debitCard()[pri:0, instance:groups.Payment@769e7ee8]" started-at="2024-09-18T11:13:19 IST" name="debitCard" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- debitCard -->
+        <test-method signature="creditCard()[pri:0, instance:groups.Payment@769e7ee8]" started-at="2024-09-18T11:13:19 IST" name="creditCard" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditCard -->
+        <test-method signature="cod()[pri:0, instance:groups.Payment@769e7ee8]" started-at="2024-09-18T11:13:19 IST" name="cod" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cod -->
+      </class> <!-- groups.Payment -->
+      <class name="groups.Account">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:19 IST" name="beforeSuit" finished-at="2024-09-18T11:13:19 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:19 IST" name="beforeTest" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:19 IST" name="beforeClass" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:19 IST" name="beforeMethod" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loanAccount()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:19 IST" name="loanAccount" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAccount -->
+        <test-method signature="savingAccount()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:19 IST" name="savingAccount" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savingAccount -->
+        <test-method signature="currentAccount()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:19 IST" name="currentAccount" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currentAccount -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:19 IST" name="afterMethod" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:19 IST" name="afterMethod" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:19 IST" name="afterMethod" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:19 IST" name="afterClass" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:19 IST" name="beforeMethod" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:19 IST" name="beforeMethod" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:19 IST" name="afterTest" finished-at="2024-09-18T11:13:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuit()[pri:0, instance:groups.Account@d4342c2]" started-at="2024-09-18T11:13:20 IST" name="afterSuit" finished-at="2024-09-18T11:13:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- groups.Account -->
+    </test> <!-- E:/Learning_Testng/src/test/java/groups -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

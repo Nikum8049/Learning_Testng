@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/Learning_Testng/src/test/java/AssingmentTestNGmodule7/A003FacebookLoginTest.java">
+        <parameter name="username" value="Nikum7589"></parameter>
+        <parameter name="password" value="Nikum4567856"></parameter>
+        <classes>
+            <class name="AssingmentTestNGmodule7.A003FacebookLoginTest">
+            </class>
+        </classes>
+    </test>
+</suite>
